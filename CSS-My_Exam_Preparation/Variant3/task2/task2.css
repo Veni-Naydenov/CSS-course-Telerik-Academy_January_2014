@@ -1,0 +1,58 @@
+﻿
+* {margin:0;
+   padding:0;
+}
+
+div#wrapper {
+    width:960px;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+	font-size: 16px;
+    margin:25px;
+}
+
+#wrapper div.select-list ul {
+    float:left;
+    width:150px;
+    height:200px;
+    overflow-y:scroll;
+
+    border-top-left-radius:5px;
+    -web-kid-border-top-left-radius:5px;
+    background: -webkit-linear-gradient(top, #836BFF 39%,#FEFDFF 99%); /* Chrome10+,Safari5.1+ */  
+}
+
+#wrapper div.select-list ul li{
+    list-style-type:none;
+    padding:5px 0px 5px 15px;
+    border-top:1px solid black;
+}
+#wrapper div.select-list ul li:first-of-type{
+    border-top:none
+}
+#wrapper div.select-list ul li:first-letter{
+    text-decoration:underline;
+}
+#wrapper div.select-list ul.all-items li.selected{
+    background-color:#6C4EFF;
+}
+
+#wrapper div.select-list ul.all-items li{
+    list-style-type:none;
+}
+
+#wrapper div.select-list a {
+    position:relative;
+    float:left;
+    top:90px;
+    margin-left:5px;
+}
+
+#wrapper div.select-list a.btn-select {
+     margin-right:5px;
+     margin-left:5px;
+}
+
+#wrapper div.select-list ul.selected-items li.selected{
+     background-color:#6C4EFF;
+}
+

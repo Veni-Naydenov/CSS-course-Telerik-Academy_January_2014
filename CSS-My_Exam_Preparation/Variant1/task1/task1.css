@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+div.wrapper {
+    width: 960px;
+}
+
+aside {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+    aside ul.sidebar {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #CF99FF), color-stop(100, #8B78FF));
+        /* Webkit (Chrome 11+) */
+        background-image: -webkit-linear-gradient(top, #CF99FF 0%, #8B78FF 100%);
+        /* W3C Markup */
+        background-image: linear-gradient(to bottom, #CF99FF 0%, #8B78FF 100%);
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+
+        aside ul.sidebar > li {
+            list-style-type: none;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-bottom: 1px solid #9D00FF;
+            
+        }
+
+        aside ul.sidebar li a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 5px;
+            color: black;
+        }
+
+        aside ul.sidebar li:last-of-type {
+            border: none;
+        }
+
+        aside ul.sidebar li:hover {
+            border: 1px solid #9D00FF;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+
+        aside ul.sidebar li ul {
+            list-style-type: none;
+            display: none;
+        }
+
+        aside ul.sidebar li:hover ul {
+            display: inline-block;
+            position: absolute;
+            left: 220px;
+            margin-top: -40px;
+            margin-left: 10px;
+            padding: 5px 0px;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            background-color: #B5AAFF;
+        }
+
+            aside ul.sidebar li:hover ul li {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+                aside ul.sidebar li:hover ul li a {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border-bottom: 1px solid #9D00FF;
+                }
+
+                aside ul.sidebar li:hover ul li:hover {
+                    border: none;
+                    background-image: url(imgs/arrow.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px 10px;
+                }
+
+                    aside ul.sidebar li:hover ul li:hover a {
+                        border: 1px solid #9D00FF;
+                        border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                    }

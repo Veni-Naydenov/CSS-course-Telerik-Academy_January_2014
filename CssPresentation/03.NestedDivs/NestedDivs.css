@@ -1,0 +1,16 @@
+﻿body{
+    width:500px;
+}
+.hidden{
+    display:none;
+}
+div {
+    border: 1px solid red;
+    background: #000;  
+    padding-right: 10%;
+    border-radius: 60px;            
+          
+}
+
+    
+    

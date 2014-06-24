@@ -1,0 +1,67 @@
+﻿
+:root {
+    background-color:#595959;
+}
+h1 {
+    color:#bab9b8;
+    font-size:1.5em;
+    font-family:Arial;
+    font-weight:lighter;
+}
+dl {
+    font-family:Arial;
+    margin-top:-2em;
+}
+dt {
+    color:#cacfd1;
+    float:left;
+    clear:left;
+    text-align:left;
+    margin: 1em 0 0 0;
+    font-style:italic;
+}
+dd {
+    margin: 1em 0 0 10em;
+}
+ dd:after {
+     content:".";
+     color:#595959;
+ }
+
+.noBullet{
+    color:#e30300;
+    list-style-type:none;
+    padding:0;
+    margin-left:-1.2em;
+    font-size:0.5em;
+    }
+ul {
+    font-size:2em;
+    margin-bottom:-0.5em;
+}
+li {
+    color: #71b47a;
+    font-weight:bold;
+    font-size:1.5em;
+}
+    li:last-child{
+        margin:-0.6em 0 0 -2.3em;
+       
+    }
+span {
+    color: #d9e4aa;
+    font-size: 0.35em;
+    margin:-0.8em 0 0 -1em;
+    clear:left;
+    float:left;
+}
+.myColor{
+    color:#918297
+}
+.myWhite {
+    color: #d9e4aa;
+}
+dd:last-child {
+    color:#d36a29;
+    font-weight:bold;
+}

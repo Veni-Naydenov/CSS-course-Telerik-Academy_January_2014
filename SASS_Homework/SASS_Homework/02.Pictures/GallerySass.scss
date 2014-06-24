@@ -1,0 +1,50 @@
+$width:200px; 
+$height:150px; 
+$PreviewWidth:400px; 
+$PreviewHeight:350px; 
+
+html{ 
+	width:100%;
+	widows:100%;
+}
+body 
+{ 
+	width:100%;
+	widows:100%;
+    nav
+	{
+        display:block; 
+        div.labels
+		{ 
+			margin:15px 35px; 
+			img 
+			{ 
+			width: $width; 
+			height: $height; 
+			padding-left:5px;            
+			} 
+        } 
+	} 
+    section 
+	{ 
+		input[type="radio"]
+		{ 
+            display:none; 
+
+			&:checked + .Image_Preview 
+			{ 
+            opacity:1;  
+			} 
+		} 
+            .Image_Preview
+			{               
+            width: $PreviewWidth; 
+            height: $PreviewHeight; 
+            opacity:0; 
+            display:inline-block; 
+            position:absolute; 
+            left:30px; 
+            margin:20px 0 0 20px; 
+        } 
+    } 
+} 

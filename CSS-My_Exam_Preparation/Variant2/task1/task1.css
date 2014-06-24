@@ -1,0 +1,118 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+div#wrapper {
+    width:960px;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size:18px;
+    margin-left:50px;
+    margin-top:50px;
+}
+div#wrapper ul.accordion{
+    width:400px;
+    text-align:center;
+}
+
+div#wrapper ul.accordion li {
+    list-style-type:none;
+    background:#AAAAAA;
+    border:1px solid black;
+}
+   
+
+div#wrapper ul.accordion li a.accordion-btn{
+    display:inline-block;
+    width:100%;
+    text-decoration:none;
+    font-weight:bold;
+     color:#444444;
+     font-size:1.3em;
+    
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40, #EEEEEE), color-stop(80, #AAAAAA));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #EEEEEE 40%, #AAAAAA 80%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #EEEEEE 40%, #AAAAAA 80%);
+}
+
+ div#wrapper ul.accordion li a:hover {
+        background:#AAAAAA;
+    }
+div#wrapper ul.accordion li div.accordion-content{
+    display:none;
+}
+
+div#wrapper ul.accordion li.current div.accordion-content{
+    display:block;
+    text-align:left;
+    padding-left:15px;
+     padding-top:5px;
+    padding-bottom:5px;
+    color:#5E5E5E;
+}
+
+div.accordion-content h1 {
+    text-align:center;
+}
+
+div.accordion-content p{
+    word-spacing:6px;
+}
+
+div.accordion-content table {
+    border:1px solid black;
+    border-collapse:collapse;
+    margin-top:15px;
+    margin-left:5px;
+    
+}
+
+div.accordion-content table thead {
+    border:1px solid black;
+}
+
+div.accordion-content table thead tr th {
+    border:1px solid black;
+    padding:5px;
+    color:#444444;
+    
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E6E6E6), color-stop(100, #8C8C8C));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #E6E6E6 0%, #8C8C8C 100%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #E6E6E6 0%, #8C8C8C 100%);
+}
+    div.accordion-content table thead tr th:first-of-type {
+        border-top-left-radius:15px;
+    }
+div.accordion-content table tbody  {
+    border:1px solid black;
+}
+
+div.accordion-content table tbody tr {
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20, #C5C5C5), color-stop(60, #8B8B8B));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #C5C5C5 20%, #8B8B8B 60%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #C5C5C5 20%, #8B8B8B 60%);
+}
+div.accordion-content table tbody tr:nth-of-type(2n) {
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20, #8B8B8B), color-stop(60, #C5C5C5));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #8B8B8B 20%, #C5C5C5 60%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #8B8B8B 20%, #C5C5C5 60%);
+}
+
+div.accordion-content table tbody tr td{
+    border:1px solid black;
+    color:white;
+    padding:5px;
+}
+
+
+
+
+

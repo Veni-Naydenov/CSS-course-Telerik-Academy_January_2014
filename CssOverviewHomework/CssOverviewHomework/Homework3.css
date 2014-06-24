@@ -1,0 +1,79 @@
+﻿/*CSS Document*/
+
+:root {
+    background-color:#a9a9a9;
+    /*position: absolute;*/
+    min-height: 100%;
+}
+body {
+    margin: 0; 
+    padding: 25px;
+    position:absolute;
+    
+}
+h1~nav {
+    font-size:1.2em;
+    font-weight:bold;
+}
+header:first-child {
+    text-align:center;
+}
+h1 {
+    color:#fff;
+}
+li {
+    list-style-type:none;
+}
+    li:last-child {
+    text-decoration:underline;
+    color:#fff;
+    }
+nav ul li a:link,nav ul li a:visited {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+}
+nav ul li a.current {
+        background-color:#d3d3d3;
+    }
+nav ul li a:hover,nav ul li a:active{
+    text-decoration: none;
+    color: #fff;
+    background-color:#d3d3d3;
+}
+article header h1 {
+    text-align:left;
+    font-size:2em;
+}
+p > a {
+    text-decoration:none;
+    color:#000;
+}
+footer {
+    text-align:center;
+    font-weight:bold;
+
+   
+}
+footer > p {
+    text-align:left;
+    font-size:0.8em;
+    font-weight:normal;
+}
+body>footer{
+    
+    /*position: fixed; /*to be allways on the screen bottom*/
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    overflow:hidden;
+
+}
+
+section{
+
+  position:relative;
+  padding: 0 0 15px 0;
+  clear:both;
+
+}

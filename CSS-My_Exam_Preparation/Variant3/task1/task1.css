@@ -1,0 +1,109 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+div#wrapper {
+    width:960px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+div#wrapper ul.msg-bar {
+    width:464px;
+    position:absolute;
+    top:205px;
+    margin-left:50px;
+}
+
+div#wrapper ul.msg-bar >li {
+    list-style-type:none;
+    display:inline-block;
+    border:1px solid black;
+    box-shadow:0px -3px 0px #FFFFFF;
+
+    background: -webkit-linear-gradient(top, #AAFFEF 39%,#26FFD6 99%); /* Chrome10+,Safari5.1+ */  
+}
+
+div#wrapper ul.msg-bar li> a.msg-bar-btn{
+    text-decoration:none;
+    color:#0094FF;
+    padding:5px 15px;
+    display:inline-block;
+}
+div#wrapper ul.msg-bar li:hover  {
+    border-top:none;
+    box-shadow:0px -3px 0px #AAFFEF;  /*h-shadow v-shadow blur spread color |inset|initial|inherit;*/
+}
+div#wrapper ul.msg-bar li:hover > a.msg-bar-btn {
+    background-color:#00DDB3;
+}
+/*ul inside*/
+div#wrapper ul.msg-bar li div.msg-bar-content  {
+    display:none;
+}
+/*hover*/
+div#wrapper ul.msg-bar li:hover div.msg-bar-content  {
+    width:445px;
+    height:160px;
+    display:inline-block;
+    position:absolute;
+    bottom:36px;
+    left:0px;
+    padding-left:15px;
+    
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-top-left-radius:15px;
+    -web-kid-border-top-left-radius:15px;
+     border-top-right-radius:15px;
+    -web-kid-border-top-right-radius:15px;
+
+    background-color:#AAFFEF;
+}
+div#wrapper ul.msg-bar li div.msg-bar-content ul {
+    padding-right:5px;
+}
+
+div#wrapper ul.msg-bar li div.msg-bar-content ul li {
+      list-style-type:none;
+      margin-top:5px;
+}
+    div#wrapper ul.msg-bar li div.msg-bar-content ul li:first-of-type {
+         margin-top:15px;
+    }
+/*div#wrapper ul.msg-bar li div.msg-bar-content ul li.me-item {
+     background:url(imgs\me.png) no-repeat ;
+    background-position:50% 100%;
+}*/
+div#wrapper ul.msg-bar li:hover div.msg-bar-content ul li span:first-of-type {
+    display:inline-block;
+    padding:5px 20px;
+    padding-right:10px;
+    border:1px solid black;
+    border-radius:15px;
+    -web-kid-border-radius:15px;
+}
+/*me*/
+div#wrapper ul.msg-bar li:hover div.msg-bar-content ul li.me-item span.user {
+    
+    background-image: url(imgs/me.png);
+    background-repeat: no-repeat;
+    background-position:5% 50%;  /*horizontal position and the second value is the vertical.*/ 
+}
+/*other*/
+div#wrapper ul.msg-bar li div.msg-bar-content ul li.other-item span.user {
+    background-image: url(imgs/male.png);
+    background-repeat: no-repeat;
+    background-position:5% 50%;
+}
+div#wrapper ul.msg-bar li div.msg-bar-content ul li span:last-of-type {
+    display:inline-block;
+    width:350px;
+    float:right;
+    border-bottom:1px solid black;
+    text-align:right;
+    padding-bottom:10px;
+}
+    div#wrapper ul.msg-bar li div.msg-bar-content ul li:last-of-type span:last-of-type {
+        border-bottom:none;
+    }

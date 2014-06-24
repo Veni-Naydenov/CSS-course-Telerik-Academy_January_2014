@@ -1,0 +1,102 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:#1E3741;
+    margin-left:5px;
+}
+nav{
+    margin-top:10px;
+}
+nav  ul {
+    list-style-type:none;
+    
+}
+nav  ul li{
+    display:inline-block;
+    background-color:#4B5F67;
+    color:white;
+    padding:7px;
+    margin-right:-1px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+}
+nav>ul li:first-child{
+     background-color:#1E3741;
+}
+ nav ul li a:hover {
+     text-decoration:underline;
+ }   
+nav ul li section{
+    display:none;
+    margin-top:20px;
+}
+
+nav ul li section header{
+    background-color:#00968C;
+    display:inline-block;
+    padding:10px 40px 10px 10px;
+    margin-left:-10px;
+    width:270px;
+}
+nav ul li  section#news::selection{
+
+}
+nav ul li  section#news:target{ /*here is the styles for the selected #.. */
+        display:block;
+        position:fixed;
+         top:35px;
+        left:5px;
+    }
+nav ul li section article{
+    width:270px;
+    border-bottom:solid 2px #304955;
+    margin-bottom:5px;
+    margin-left:-5px;
+} 
+nav ul li section article:last-child{
+    border-bottom:none;
+}
+nav ul li section article p{
+    padding:5px;
+    color:#A4ACAF;
+    font-weight:bold;
+}
+nav ul li  section#news:target img{
+   position:absolute;
+   left:270px;
+   top:0px;
+}
+section#sport:target{
+        display:block;
+        position:fixed;
+         top:35px;
+        left:5px;
+    }
+section#sport:target img{
+   position:absolute;
+   left:270px;
+   top:0px;
+}
+section#emi:target{
+        display:block;
+        position:fixed;
+         top:35px;
+        left:5px;
+    }
+section#emi:target img{
+   position:absolute;
+   left:270px;
+   top:0px;
+}
+section#empty:target{
+        display:block;
+        position:fixed;
+         top:35px;
+        left:5px;
+    }
+

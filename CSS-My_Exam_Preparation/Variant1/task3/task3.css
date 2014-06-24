@@ -1,0 +1,146 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+div#wrapper {
+    width: 960px;
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+}
+div#wrapper >div  {
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EDEDED), color-stop(100, #ADADAD));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #EDEDED 0%, #ADADAD 100%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #EDEDED 0%, #ADADAD 100%);
+
+    margin:30px;
+    width:380px;
+    height:460px;
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px;
+    border-radius: 15px; 
+    border:1px solid black; 
+}
+div#wrapper >div h1 {
+     color:#555555;
+     padding-top:15px;
+     padding-left:22px;
+     margin-bottom:5px;
+     font-size:1.8em;   
+}
+div#wrapper >div ul.messages-list {
+    display:block;
+    width:380px;
+    height:400px;
+}
+    div#wrapper > div ul li {
+        list-style-type:none;
+        margin-top:5px;
+        padding-left:20px;
+        padding-top:5px;
+        width:210px;
+        color:#655555;
+
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px;
+    border-radius: 15px; 
+    border:1px solid black; 
+    }
+/*me item*/
+div#wrapper >div ul.messages-list li.me-item {
+    float:right;
+    /*clear:both;*/
+    margin-right:15px;
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #37EEFF), color-stop(100, #BEFAFF));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #37EEFF 0%, #BEFAFF 100%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #37EEFF 0%, #BEFAFF 100%);
+}
+
+div#wrapper >div ul.messages-list li.me-item span:not(:last-of-type){
+    font-weight:bold;
+}
+div#wrapper >div ul.messages-list li.me-item p{
+   
+}
+div#wrapper >div ul.messages-list li.me-item span.date{
+    font-family:Consolas;
+    float:right;
+    font-size:0.8em;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+
+/*toshko*/
+div#wrapper >div ul.messages-list li.toshko-item {
+    float:left;
+    /*clear:both;*/
+    margin-left:15px;
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D4FFC4), color-stop(100, #75FF42));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #D4FFC4 0%, #75FF42 100%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #D4FFC4 0%, #75FF42 100%);
+}
+
+div#wrapper >div ul.messages-list li.toshko-item span:not(:last-of-type) {
+    font-weight:bold;
+    float:right;
+    clear:both;
+    padding-right:15px;
+}
+div#wrapper >div ul.messages-list li.toshko-item span.date {
+    clear:both;
+    font-size:0.8em;
+}
+div#wrapper >div ul.messages-list li.toshko-item p {
+    clear:both;
+}
+    div#wrapper > div input {
+        display:inline-block;
+        position:relative;
+        bottom:40px;
+        left:15px;
+    }
+     div#wrapper > div input[type="text"] {
+        width:255px;
+        height:25px;
+        -moz-border-radius: 5px; 
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
+        border:none;
+        padding-left:20px;
+        padding-top:5px;
+        padding-bottom:5px;
+        color:#555555;
+    }
+input[type="text"]:focus {
+    
+    outline:0;
+}
+      div#wrapper > div button {
+        position:relative;
+        bottom:40px;
+        left:15px;
+        height:30px;
+        padding:5px 15px;
+        font-weight:bold;
+        font-size:1em;
+         -webkit-border-radius: 5px;
+        border-radius: 5px;
+        border:none; 
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EDEDED), color-stop(100, #ADADAD));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #EDEDED 0%, #ADADAD 100%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #EDEDED 0%, #ADADAD 100%);
+    }
+div#wrapper > div button:hover {
+    background:#fff;
+}
+
+
+
+

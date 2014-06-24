@@ -1,0 +1,104 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+div#wrapper {
+    width:960px;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 16px;
+}
+    div#wrapper form {
+        
+        text-align:right;
+        border:1px solid black;
+        border-radius:15px;
+        -web-kid-border-radius:15px;
+        margin:25px;
+        width:380px;
+        height:320px;
+        padding:15px;
+        background: -webkit-linear-gradient(top, #68D2FF 39%,#8CFEFB 99%); /* Chrome10+,Safari5.1+ */  
+    }
+     
+    div#wrapper form fieldset{
+        color:#333333;
+        border:3px solid black;
+        border-radius:5px;
+        -web-kid-border-radius:5px;
+        text-align:right;
+        padding-right:15px;
+        padding-top:10px;
+        padding-bottom:5px;
+        
+    }
+        div#wrapper form fieldset:last-of-type {
+            margin-bottom:5px;
+        }
+    div#wrapper form fieldset legend{
+        text-align:right;
+        padding-left:20px;
+        padding-right:10px;
+        font-size:1.3em;
+        margin-bottom:-5px;
+    }
+    div#wrapper form fieldset label{
+        
+    } 
+        div#wrapper form fieldset input[type] {
+            width:160px;
+            height:25px;
+            margin-top:1px;
+            border:1px solid #008FCE;
+            border-radius:5px;
+            -web-kid-border-radius:5px;
+            padding-left:15px;
+
+            background: -webkit-linear-gradient(top, #6BD5FF 39%,#89FBFB 99%); /* Chrome10+,Safari5.1+ */  
+        }
+    div#wrapper form fieldset input#tb-age{
+        margin-top:2px;
+    }
+        div#wrapper form fieldset input[type="number"] {
+            height:25px;
+            width:35px;
+            padding-left:5px;
+        }
+div#wrapper form input[type="radio"]{
+   margin-bottom:20px;
+   
+}
+
+form button {
+    color:#333333;
+    border:none;
+    width:140px;
+    height:35px;
+    font-size:1.1em;
+    border-bottom:1px solid black;
+    border-radius:5px;
+    -web-kid-border-radius:5px;
+    background: -webkit-linear-gradient(top, #41C9FE 39%,#86FAFB 99%); /* Chrome10+,Safari5.1+ */  
+}
+form button:hover {
+     background:#9BE1FF;
+}
+form input[type="reset"] {
+    color:#333333;
+    border:none;
+    width:120px;
+    height:35px;
+    font-size:1.1em;
+    border-bottom:1px solid black;
+    border-radius:5px;
+    -web-kid-border-radius:5px;
+     
+    background: -webkit-linear-gradient(top, #41C9FE 39%,#86FAFB 99%); /* Chrome10+,Safari5.1+ */  
+}
+
+form input:last-of-type:hover {
+    background:#9BE1FF;
+}
+
+
+

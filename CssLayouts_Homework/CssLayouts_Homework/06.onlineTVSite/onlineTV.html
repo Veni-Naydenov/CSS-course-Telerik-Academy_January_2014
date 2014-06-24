@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Online TV</title>
+    <meta charset="utf-8"/>
+    <link href="onlineTVStyles.css" rel="stylesheet" />
+    <script type="text/javascript">
+        if (document.location.hash === "" || document.location.hash === "#")
+            document.location.hash = "#news";
+    </script> <!--if it is not selected subject ,it select by default the NEWS.In Firefox work after reloading the page (F5)-->
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#news">Новините</a>
+                <section id="news">
+                    <header>
+                        <h3>Интернет новини-15.2.2014</h3>
+                    </header>
+                    <article>
+                        <p>Включете се в следващата среща на „Училищната академия на Телерик“!</p>
+                    </article>
+                    <article>
+                        <p> Каним ви на второто издание на Rails Girls </p>
+                    </article>
+                    <article>
+                        <p>Втория кръг на Националната олимпиада по информатика</p>
+                    </article>
+                    <article>
+                        <p>"Софтуерният университет е една малка стъпка към изпълнението на целта България да стане Силициевата долина на Европа."</p>
+                    </article>
+                    <img src="images/btv.png" alt="" />
+                </section>
+            </li>
+            <li>
+                <a href="#sport">Спорт</a>
+                <section id="sport">
+                    <header>
+                        <h3>Спортни новини-15.2.2014</h3>
+                    </header>
+                    <article>
+                        <p>Владимир Зографски премина квалификациите в Сочи</p>
+                    </article>
+                    <article>
+                        <p>78-годишен веган и бодибилдър ни кара да се замислим какво ядем</p>
+                    </article>
+                    <article>
+                        <p>Хонда с открит интерес към Хорхе Лоренсо</p>
+                    </article>
+                    <article>
+                        <p>Събуждането на Шумахер ще отнеме дълго време</p>
+                    </article>
+                    <img src="images/00472655.jpg" alt="" />
+                </section>
+            </li>
+            <li>
+                <a href="#emi">Емисии</a>
+                 <section id="emi">
+                    <header>
+                        <h3>Емисии -15.2.2014</h3>
+                    </header>
+                    <article>
+                        <p>Райконен се труди във фабриката в Маранело </p>
+                    </article>
+                    <article>
+                        <p>Доста CSS се изписа, Алоха Нинджа ;)!</p>
+                    </article>
+                   <img src="images/00472550.jpg" alt="" />
+                </section>
+            </li>
+            <li>
+                <a href="#empty">Любопитно</a>
+                <section id="empty">
+                    <header>
+                        <h3>Празно -15.2.2014</h3>
+                    </header>
+                    <article>
+                        <p>Empty </p>
+                    </article>
+                    <article>
+                        <p>Време е за сън!!! </p>
+                    </article>
+                </section>
+            </li>
+            <li><a href="#">Аз,програмистът</a></li>
+            <li><a href="#">Тази сутрин,ще?</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

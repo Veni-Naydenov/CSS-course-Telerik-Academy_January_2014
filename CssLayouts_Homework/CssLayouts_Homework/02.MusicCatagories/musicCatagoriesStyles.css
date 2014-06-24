@@ -1,0 +1,102 @@
+﻿body {
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+h3{
+    font-weight:100;
+    font-family:Calibri;
+    padding-top:15px;
+    padding-left:10px;
+}
+div.mainDiv{
+    background-color:#eeeeee;
+    width:400px;
+    height:500px;
+    padding-bottom:20px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border-radius:5px; 
+      
+}
+div div{
+     border:solid 1px #808080;
+     background-position:15px 15px;
+     background-repeat:no-repeat;
+     overflow:visible;
+     margin:35px 10px 0 10px;
+     height:115px;
+     position:relative;
+     background-color:white;
+}
+
+
+div div p{
+    float:right;
+    /*top:0;
+    left:170px;*/
+    width:185px;
+    font-size:0.8em;
+    /*font-family:Consolas;*/
+   text-align:match-parent;
+   overflow-x:visible;
+   margin-right:35px;
+    
+}
+p span{
+    font-weight:bold;
+}
+
+    div div:nth-of-type(1) {
+        background-image: url(images/topPicture.png);
+        -moz-background-size: 125px 85px;
+        -o-background-size: 125px 85px;
+         background-size: 125px 85px;
+    }
+div div:nth-of-type(2){
+        background-image: url(images/middlePicture.png);
+        -moz-background-size: 125px 85px;
+        -o-background-size: 120px 80px;
+         background-size: 125px 85px;
+}
+div div:nth-of-type(3){
+        background-image: url(images/bottomPicture.png);
+        -moz-background-size: 125px 85px;
+        -o-background-size: 125px 85px;
+        background-size: 125px 85px;
+
+      
+        
+}
+button{
+    height:25px;
+    background-image: url(images/Button.png);
+    display:inline-block;
+    float:right;
+    position:absolute;
+    bottom:15px;
+    right:20px;
+    border:outset;
+    border-bottom:solid 2px #6B0000;
+    border-right:solid 2px #6B0000;
+    border-top:solid 2px #E17877;
+    border-left:solid 1px #E17877;
+    color:white;
+    text-align:center;
+    font-size:0.8em;
+    padding-left:20px;
+    
+}
+.leftBtn{
+    width:74px;
+     right:83px;
+}
+.rightBtn{
+   width:60px;
+}
+div.last{
+    height:120px;
+}
+div.last button{
+ bottom:5px;
+}
